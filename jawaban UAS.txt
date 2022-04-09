@@ -1,0 +1,27 @@
+1. Apa yang dimaksud dengan state management pada flutter?
+2. Sebutkan apa saja state management pada flutter 
+
+
+1.Dalam Reactive Framework seperti Flutter, kamu bisa membuat UI sebagai return value function(state) => UI dari sebuah function dimana function tersebut dipanggil dengan 1 argumen yaitu adalah state. Jadi, State adalah sebuah data yang bisa berubah dengan / seperti lifecycle didalam aplikasi kamu.
+
+Banyak data yang bisa kamu simpan dialam 1 widget saja, atau dikenal dengan local state. Lalu ada juga yaitu Global State, ini adalah state yang bisa dipakai / berbagi dengan Widget yang lain, sehingga penggunaannya Global.
+
+Didalam Flutter, pastinya kita sudah tidak asing lagi bagi yang namanya Stateful Widget dan Stateless Widget. Jenis jenis Widget tersebut terbagi karena sesuai fungsinya, yaitu Stateless Widget yang berisi Widget statis, dan Stateful Widget yang mempunyai kemampuan untuk meng-update data atau yang dikenal dengan State dengan cara setState
+
+2.
+General overview
+Provider
+Riverpod
+setState
+InheritedWidget & InheritedModel
+Redux
+Fish-Redux
+BLoC / Rx
+GetIt
+MobX
+Flutter Commands
+Binder
+GetX
+states_rebuilder
+Triple Pattern (Segmented State Pattern)
+
