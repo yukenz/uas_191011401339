@@ -109,6 +109,10 @@ class jsonList extends StatelessWidget {
                       subtitle: Text(snapshot.data[index]['body']),
                     );
                   });
+            } else {
+              return Scaffold(
+                body: Center(child: CircularProgressIndicator()),
+              );
             }
           },
         ),
